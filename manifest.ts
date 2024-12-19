@@ -2,9 +2,9 @@ import { Manifest } from "deno-slack-sdk/mod.ts";
 import { ChannelCreatedWorkflow } from "./workflows/channel_created.ts";
 
 export default Manifest({
-  name: "CorporateIT Kumano",
+  name: "Notify bot",
   description: "",
-  icon: "assets/bear_IT_engineer.jpg",
+  icon: "assets/icon.jpg",
   workflows: [
     ChannelCreatedWorkflow,
   ],
